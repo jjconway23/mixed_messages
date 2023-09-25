@@ -19,6 +19,9 @@ h1 {
   font-family: "Roboto Slab", serif !important;
 }
 main {
+    flex-direction: column;
+    align-items: center;
+    min-height: 60rem;
     justify-content: center;
 }
 /* Header styles */
@@ -46,8 +49,15 @@ header {
     background-color: #283618;
     color: #fefae0;
     font-size: 1.9rem;
+    width: 25rem;
 }
-
+/* Main Styles */
+.starting-message {
+    
+}
+.new-message-btn {
+    margin-top: 14rem;
+}
 /* Footer Styles */
 footer {
   height: 15rem;
