@@ -52,11 +52,19 @@ header {
     width: 25rem;
 }
 /* Main Styles */
-.starting-message {
-    
+
+.generated-message{
+    display: none;
 }
 .new-message-btn {
     margin-top: 14rem;
+}
+.author {
+    margin-left: auto;
+    display: none;
+}
+.message-container {
+    width: 65rem;
 }
 /* Footer Styles */
 footer {
