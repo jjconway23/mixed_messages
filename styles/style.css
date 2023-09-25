@@ -1,5 +1,55 @@
+/* Global Styles */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #fefae0;
+}
+.flex {
+  display: flex;
+}
+h1 {
+  font-family: "Roboto Slab", serif !important;
+}
+main {
+    justify-content: center;
+}
+/* Header styles */
+header {
+  align-items: center;
+  padding: 2rem;
+  justify-content: space-between;
+  color: #283618;
+}
+.logo-container {
+  align-items: center;
+}
+.logo {
+  width: 25rem;
+  margin-right: 1rem;
+}
+.cta {
+  font-size: 2rem;
+  width: 30rem;
+  font-family: "Roboto Slab", serif !important;
+}
+.btn {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #283618;
+    color: #fefae0;
+    font-size: 1.9rem;
+}
+
+/* Footer Styles */
+footer {
+  height: 15rem;
+  background-color: #283618;
 }
